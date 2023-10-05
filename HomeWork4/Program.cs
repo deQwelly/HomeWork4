@@ -246,14 +246,14 @@ namespace HomeWork4
             }
 
             ///Домашнее задание 5.1
-            Console.WriteLine("Домашнее задание 5.1 Написать метод, который вычисляет НОД двух натуральных чисел" +
+            Console.WriteLine("\nДомашнее задание 5.1 Написать метод, который вычисляет НОД двух натуральных чисел" +
                 "\r\n(алгоритм Евклида). Написать метод с тем же именем, который вычисляет НОД трех\r\nнатуральных чисел.");
             Console.Write("Введите первое число: ");
             try
             {
                 if (uint.TryParse(Console.ReadLine(), out uint number1))
                 {
-                    Console.Write("\nВведите второе число: ");
+                    Console.Write("Введите второе число: ");
                     if (uint.TryParse(Console.ReadLine(), out uint number2))
                     {
                         if ((number1 != 0) & (number2 != 0))
